@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.mid {
+    display: grid;
+    grid-template-columns: minmax(125px,fr),1000px,minmax(125px,fr);
+}
+.sousuo {
+    position: relative;
+    height: 40%;
+    min-height: 314px;
+    max-height: 510px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.thing {
+    width: 654px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+.search-top {
+    height: 60%;
+    min-height: 185px;
+    max-height: 310px;
+    position: relative;
+    text-align: center;
+}
+.search-top img{
+    width: 270px;
+    aspect-ratio: auto 270 / 129;
+    height: 129px;
+    position: absolute;
+    left: 50%;
+    margin-left: -135px;
+    bottom: 15px!important;
+}
+.anniu {
+    cursor: pointer;
+    width: 108px;
+    height: 44px;
+    line-height: 45px;
+    line-height: 44px\9;
+    margin-left: -4px;
+    padding: 0;
+    background: 0 0;
+    background-color: #4e6ef2;
+    border-radius: 0 10px 10px 0;
+    font-size: 17px;
+    color: #fff;
+    box-shadow: none;
+    font-weight: 400;
+    border: none;
+    outline: 0;
+}
+.Search_box .kuang{
+    width: 443px;
+    padding-right: 87px;
+}
+.Search_box .soutu{
+    background: #fff url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-10750f3f7d.png) no-repeat;
+    width: 24px;
+    height: 20px;
+    position: absolute;
+    top:50%;
+    background-position: 0 -51px;
+    right: 300px;
+    margin-top: 45px;
+}
+.Search_box .soutu:hover{
+    background-position: 0 -75px;
+}
+.kuang{
+    width: 512px;
+    height: 16px;
+    padding: 12px 16px;
+    font-size: 16px;
+    margin: 0;
+    vertical-align: top;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid #c4c7ce;
+    background: #fff;
+    color: #222;
+    overflow: hidden;
+    box-sizing: content-box;
+    -webkit-tap-highlight-color: transparent;
+}
+.kuang:hover {
+    border-color: #a7aab5;
+}
+.kuang:focus {
+    border-color: #4e6ef2;
+}
+.kuang1 {
+    border-radius: 10px 0 0 0;
+    border-bottom: 2px solid #f5f5f6!important;
+}
+.kuang2 {
+   border-radius:10px 0 0 10px;
+}
+.one{
+    width: 544px;
+    top: 35px;
+    border-radius: 0 0 10px 10px;
+    border: 2px solid #4E6EF2!important;
+    border-top: 0!important;
+    box-shadow: none;
+    font-family: Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+}
+.one ul{
+    font-size: 12px;
+    margin: 7px 14px 0;
+    margin-top: -8px;
+    padding: 8px 0 7px;
+    background: 0 0;
+    border-top: 2px solid #f5f5f6;
+    margin-bottom: 10px;
+}
+.one ul li{
+    width: auto;
+    padding-left: 14px;
+    margin-left: -14px;
+    margin-right: -14px;
+    color: #626675;
+    line-height: 28px;
+    background: 0 0;
+    font-family: 'Microsoft YaHei',Arial,sans-serif;
+}
+.active{
+    color: #315efb!important;
+    background: rgb(238, 238, 238)!important;
+}
+.left_blank {
+    width: 346px;
+}
+.Search {
+    z-index: 2;
+}

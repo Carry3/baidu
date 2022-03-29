@@ -1,0 +1,44 @@
+{
+  "id": "3286164",
+  "name": "baidu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1163105",
+      "name": "换一换",
+      "font_class": "huanyihuan",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "1301387",
+      "name": "向上",
+      "font_class": "xiangshang",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "6265049",
+      "name": "相机",
+      "font_class": "camera-line",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "8768711",
+      "name": "叉叉",
+      "font_class": "chacha",
+      "unicode": "e648",
+      "unicode_decimal": 58952
+    },
+    {
+      "icon_id": "10515596",
+      "name": "右箭头",
+      "font_class": "youjiantou-copy",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    }
+  ]
+}
