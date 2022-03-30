@@ -104,17 +104,19 @@
 }
 .one{
     width: 544px;
-    top: 35px;
+    z-index: 20;
+    position:absolute;
     border-radius: 0 0 10px 10px;
     border: 2px solid #4E6EF2!important;
     border-top: 0!important;
     box-shadow: none;
+    background-color: #fff;
     font-family: Arial,"PingFang SC","Microsoft YaHei",sans-serif;
 }
 .one ul{
     font-size: 12px;
     margin: 7px 14px 0;
-    margin-top: -8px;
+    margin-top: -2px;
     padding: 8px 0 7px;
     background: 0 0;
     border-top: 2px solid #f5f5f6;

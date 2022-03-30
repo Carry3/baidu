@@ -105,7 +105,7 @@ class News extends React.Component {
                                 {
                                     this.state.hotlist_1.map((val, index) => {
                                         return <li key={index}>
-                                            <a href="javascript:void(0)" target="_blank" onClick={() => this.open(val.rawUrl)}>
+                                            <a href="javascript:void(0)" target="_blank" onClick={() => this.open(val.rawUrl)} title={val.wordQuery}>
                                                 <span className="hot_id">{val.index+1}</span>
                                                 <span className="hot_word">{val.wordQuery}</span>
                                                 <img style={{ display: val.hotTag == 0 ? 'none' : 'block' }} src={val.hotTagImg}></img>
@@ -120,7 +120,7 @@ class News extends React.Component {
                                 {
                                     this.state.hotlist_2.map((val, index) => {
                                         return <li key={index}>
-                                            <a href="javascript:void(0)" target="_blank" onClick={() => this.open(val.rawUrl)}>
+                                            <a href="javascript:void(0)" target="_blank" onClick={() => this.open(val.rawUrl)} title={val.wordQuery}>
                                                 <span className="hot_id">{val.index+1}</span>
                                                 <span className="hot_word">{val.wordQuery}</span>
                                                 <img style={{ display: val.hotTag == 0 ? 'none' : 'block' }} src={val.hotTagImg}></img>
@@ -135,7 +135,7 @@ class News extends React.Component {
                                 {
                                     this.state.hotlist_3.map((val, index) => {
                                         return <li key={index}>
-                                            <a href="javascript:void(0)" target="_blank" onClick={() => this.open(val.rawUrl)}>
+                                            <a href="javascript:void(0)" target="_blank" onClick={() => this.open(val.rawUrl)} title={val.wordQuery}>
                                                 <span className="hot_id">{val.index+1}</span>
                                                 <span className="hot_word">{val.wordQuery}</span>
                                                 <img style={{ display: val.hotTag == 0 ? 'none' : 'block' }} src={val.hotTagImg}></img>

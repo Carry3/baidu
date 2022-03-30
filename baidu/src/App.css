@@ -2,18 +2,15 @@
   margin: 0;
   padding: 0;
 }
-.App {
-  display: grid;
-}
 header {
-  display: grid;
+  display:flex;
   justify-content: space-between;
+  flex-direction:row;
   align-items: center;
   height: 60px;
-  grid-template-columns: 441.39px auto 352.98px;
   min-width: 1250px;
   position: relative;
-  padding-left: 20;
+  padding-left: 20px;
   padding-right: 20px;
 }
 .s-top-left-new {
@@ -39,8 +36,83 @@ a {
   color: #315efb;
   text-decoration: none;
 }
-.s-top-mid {
-  height: 60px;
+.s-top-right {
+  text-align: right;
+  display: inline-flex;
+  font: 13px Arial,sans-serif;
+}
+.s-top-right a:hover {
+  color: #315efb;
+}
+.s-top-right .show-weather{
+  float: none;
+  display: inline-block;
+  margin-top: 19px;
+  height: 23px;
+}
+.s-top-right .show-weather img{
+  margin-right: 8px;
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+  background-size: 100% 100%;
+  margin-right: 4px;
+  vertical-align: top;
+}
+.show-city {
+  height: 23px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.show-airParm {
+  background-color: #82c91e;
+  border-radius: 9px;
+}
+.show-polution-name {
+  height: 18px;
+  color: #fff;
+  font-size: 11px;
+  display: inline-block;
+  line-height: 17px;
+  text-align: center;
+  padding: 0 6px;
+}
+.show-icon-temp {
+  margin-right: 10px;
+}
+.shezhi {
+  margin-left: 24px;
+  margin-top: 19px;
+  display: inline-block;
+}
+.s-top-id {
+  margin-left: 24px;
+  margin-top: 15px;
+  display: inline-block;
+  height: 30px;
+  position: relative;
+}
+.s-top-id-img {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  border: 1px solid #4e71f2;
+  display: inline-block;
+  border-radius: 50%;
+}
+.s-top-id-img img{
+  padding: 2px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+.user-name {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: top;
+  margin-top: 7px;
+  margin-left: 6px;
 }
 .menus-wrapper {
   display: block;
@@ -60,4 +132,37 @@ a {
 }
 .s-menu-item:hover {
   color: #222;
+}
+.s-bottom-layer-content {
+  width: 100%;
+  position: fixed;
+  z-index: 302;
+  bottom: 0;
+  left: 0;
+  height: 39px;
+  padding-top: 1px;
+  overflow: hidden;
+  zoom: 1;
+  margin: 0;
+  line-height: 39px;
+  background: #fff;
+  text-align: center;
+}
+.s-bottom-layer-content a:hover{
+  color: #222;
+}
+.s-bottom-layer-content .lh{
+  display: inline;
+  font-size: 12px;
+  font-family: Arial,sans-serif;
+  margin-right: 20px;
+  text-align: center;
+}
+.text-color {
+  color: #bbb;
+}
+.s-bottom-layer-content img {
+  width: 49px;
+    height: 20px;
+    margin-bottom: -5px;
 }

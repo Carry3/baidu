@@ -1,6 +1,7 @@
 .end {
     display: grid;
     z-index: 1;
+    position: relative;
     grid-template-columns: minmax(94px 1fr) 1088px minmax(94px 1fr);
 }
 @media screen and (max-width: 1340px){
